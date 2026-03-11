@@ -2,11 +2,9 @@ numpy
 pandas
 yfinance
 scikit-learn
-tensorflow==2.15.0
+tensorflow==2.12.0
 matplotlib
 seaborn
 streamlit
 plotly
-pickle-mixin
-ipykernel
 

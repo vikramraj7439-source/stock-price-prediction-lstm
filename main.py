@@ -66,7 +66,7 @@ st.markdown("""
 def load_model_and_scaler():
     """Load trained model and scaler"""
     try:
-        model = load_model("stock_lstm_model.h5")
+        model = load_model("stock_lstm_model.h5",compile=False) ## added compile=false 
         with open("scaler.pkl", "rb") as f:
             scaler = pickle.load(f)
         return model, scaler

@@ -8,3 +8,5 @@ seaborn
 streamlit
 plotly
 pickle-mixin
+ipykernel
+
